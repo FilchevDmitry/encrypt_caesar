@@ -17,9 +17,8 @@ std::string encrypt_caesar(std::string text, int num) {
     return text;
 }
 std::string decrypt_caesar(std::string text, int num){
-    num*=-1;
-    std::string text1=encrypt_caesar(text,num);
-    return text1;
+
+    return encrypt_caesar(text,-num);
 }
 
 
