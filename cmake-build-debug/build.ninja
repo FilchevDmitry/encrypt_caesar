@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/filch/CLionProjects/Encrypt_caesar/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/filch/CLionProjects/Skillbox/Encrypt_caesar/cmake-build-debug/
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\filch\CLionProjects\Encrypt_caesar\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\filch\CLionProjects\Skillbox\Encrypt_caesar\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -60,7 +60,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_Encrypt_caesar: phony || CMakeFiles/Encrypt_caesar.dir
 
-build CMakeFiles/Encrypt_caesar.dir/main.cpp.obj: CXX_COMPILER__Encrypt_caesar_Debug C$:/Users/filch/CLionProjects/Encrypt_caesar/main.cpp || cmake_object_order_depends_target_Encrypt_caesar
+build CMakeFiles/Encrypt_caesar.dir/main.cpp.obj: CXX_COMPILER__Encrypt_caesar_Debug C$:/Users/filch/CLionProjects/Skillbox/Encrypt_caesar/main.cpp || cmake_object_order_depends_target_Encrypt_caesar
   DEP_FILE = CMakeFiles\Encrypt_caesar.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Encrypt_caesar.dir
@@ -92,7 +92,7 @@ build Encrypt_caesar.exe: CXX_EXECUTABLE_LINKER__Encrypt_caesar_Debug CMakeFiles
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\filch\CLionProjects\Encrypt_caesar\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\filch\CLionProjects\Encrypt_caesar -BC:\Users\filch\CLionProjects\Encrypt_caesar\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\filch\CLionProjects\Skillbox\Encrypt_caesar\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\filch\CLionProjects\Skillbox\Encrypt_caesar -BC:\Users\filch\CLionProjects\Skillbox\Encrypt_caesar\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -110,7 +110,7 @@ build Encrypt_caesar: phony Encrypt_caesar.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/filch/CLionProjects/Encrypt_caesar/cmake-build-debug
+# Folder: C:/Users/filch/CLionProjects/Skillbox/Encrypt_caesar/cmake-build-debug
 
 build all: phony Encrypt_caesar.exe
 
